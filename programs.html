@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-style-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link type="text/css" href="style.css" rel="stylesheet" />
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<title>Program</title>
+</head>
+
+<body>
+<script type="text/javascript">
+function show(inputData){
+	var buttonID=document.getElementById("title_" + inputData);
+	var objID=document.getElementById("abstract_" + inputData);
+	if(objID.className=='close') {
+		objID.style.display='block';
+		objID.className='open';
+	}else{
+		objID.style.display='none';
+		objID.className='close';
+	}
+}
+</script>
+
+<h2>Program</h2>
+<h3>March XX, 2021</h3>
+<dl class="acc">
+	<dt>Opening Remarks</dt>
+		<dd>9:00-9:10</dd>
+	<dt><a href="http://www.cs.tsukuba.ac.jp/~morikuni/WNA3KH/about.html">Brief introduction of Prof. Xxxxxx</a></dt>
+		<dd>9:10-9:20</dd>
+	<dt>Session 1. Chair: XXXX XXXX</dt>
+  	<dd>9:20-10:00 <a href="javascript:void(0)" id="title_Reichel" name="title_Reichel" onclick="show('Reichel');" onkeypress="return true">Title</a>
+			<div id="abstract_Reichel" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em">Abstract</p></div>
+			<p>&emsp; Author, Affiliation</p>
+		</dd>
+  	<dd>10:00-10:40 <a href="javascript:void(0)" id="title_Washio" name="title_Washio" onclick="show('Washio');" onkeypress="return true">Title</a>
+			<div id="abstract_Washio" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em">Abstract</p>
+			<p><a href="Prof.%20Washio.docx">Docx file of abstract</a></p>
+			</div>
+			<p>&emsp; Author, Affiliation</p>
+		</dd>
+		<dd>&emsp; Break</dd>
+	<dt>Session 2. Chair: Xxxx Xxxxx</dt>
+		<dd>11:00-11:40 <a href="javascript:void(0)" id="title_Wei" name="title_Wei" onclick="show('Wei');" onkeypress="return true">Title</a>
+		<div id="abstract_Wei" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em">Abstract.</p>
+		<p><a href="Prof.%20Wei.doc">Doc file of abstract</a></p>
+	</div>
+	<p>&emsp; Author, Affiliation</p>
+	</dd>
+	<dd>11:40-12:20 <a href="javascript:void(0)" id="title_Mas" name="title_Mas" onclick="show('Mas');" onkeypress="return true"> Title</a>
+		<div id="abstract_Mas" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em">Abstract 1</p>
+		<p style="text-indent:1em">Abstract 2</p>
+		<p style="text-indent:1em">Abstract 3</p>
+		<p style="text-indent:1em">Coauthors: Cuauthor 1 and Coauthor 2</p>
+		</div>
+		<p>&emsp; Author, Affiliation</p>
+	</dd>
+	<dt>Lunch</dt>
+		<dd>12:20-13:45</dd>
+	<dt>Announcement</dt>
+		<dd>13:45-13:50</dd>
+</dl>
+<p><br /></p>
+</body>
+</html>
