@@ -793,8 +793,9 @@ button:focus,
       display: none;
       width: 500px;
       position: absolute;
-      top: -100px;
+      /*top: -100px;*/
       left: 175px;
+      bottom: 60px;
       padding: 16px;
       border-radius: 5px;
       background: #33cc99;
