@@ -546,6 +546,7 @@ button:focus,
 .section-program .session h3 span {
     font-size   : 14px;
     display     : block;
+    text-transform : uppercase;
     line-height : 1;
     }
 
