@@ -379,14 +379,14 @@ function show(inputData){
                     </div>
 
                     <div class="session">
-                        <time datetime="2021-03-16T15:35">16:15&#8211;16:40 (UTC+9)</time>
+                        <time datetime="2021-03-16T16:15">16:15&#8211;16:40 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_JMMari" onclick="show('JMMari');" onkeypress="return true">Updating preconditioners for solving linear systems iteratively</a></h3>
                         <div id="abstract_JMMari" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Preconditioners are used to accelerate the convergence of iterative linear solvers. When the linear system \(Ax=b\), changes a little, let's say to \((A+B)x=c\), where $B$ has low rank, the preconditioner obtained from \(A\) loses effectivity. Instead of computing a new preconditioner from scratch we proposed to update it by bordering the coefficient matrix, and adding new entries to the right-hand side, in such a way that the bordered system is equivalent to the system \((A+B)x=c\). Then the old preconditoner can be reused and updated computing who the added blocks should be incorporated to the preconditioner of the bordered matrix. In addition, the application of the preconditioner should be changed to include the effect of the updating. Moreover, the technique can be used to deal with other situations as rank deficiency of the coefficient matrix, which prevent to obtain a preconditioner using factorization techniques. Also, if the coefficient matrix has a low-rank skew symmetric part, this technique allows to compute a preconditioner for the symmetric part and then include the skew-symmetric in the preconditioning step. In this talk I will review the technique and show some applications to the above mentioned problems.</p></div>
                         <h3>Jos&eacute; Mas Mar&iacute;<span>Universitat Polit&egrave;cnica de Val&egrave;ncia</span></h3>
                     </div>
 
                     <div class="session">
-                        <time datetime="2021-03-16T15:35">16:40&#8211;17:05 (UTC+9)</time>
+                        <time datetime="2021-03-16T16:40">16:40&#8211;17:05 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_YCui" onclick="show('YCui');" onkeypress="return true">Implementation of interior-point methods for LP based on Krylov subspace iterative solvers with inner-iteration preconditioning</a></h3>
                         <div id="abstract_YCui" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We apply novel inner-iteration preconditioned Krylov subspace methods to the interior-point (IP) algorithm for linear programming (LP). Inner-iteration preconditioners proposed by Morikuni and Hayami enable us to overcome the severe ill-conditioning of linear equations solved in the final phase of IP iterations. The Krylov subspace methods do not suffer from rank-deficiency and therefore no preprocessing is necessary even if rows of the constraint matrix are not linearly independent. Via these methods, a new IP recurrence is proposed to omit one matrix-vector product per step. Extensive numerical experiments are conducted over diverse instances of 140 LP problems including the Netlib, QAPLIB, Mittelmann and Atomizer Basis Pursuit collections. The largest problem has 434,580 unknowns. It turns out that our implementation is more robust than the standard public domain solvers SeDuMi, SDPT3 and the LSMR iterative solver in PDCO without increasing CPU time. The proposed IP method based on iterative solvers succeeds in solving a fairly large number of LP instances from benchmark libraries under the standard stopping criteria. The work also presents a fairly extensive benchmark test for several renowned solvers including direct and iterative solvers.</p></div>
                         <h3>Yiran Cui</h3>
@@ -399,15 +399,65 @@ function show(inputData){
                     </div>
 
                     <div class="session">
-                        <time datetime="2021-03-16T10:00">10:00 (UTC+9)</time>
+                        <time datetime="2021-03-17T10:00">10:00 (UTC+9)</time>
                         <h2>Doors Open</h2>
                     </div>
 
                     <div class="session">
-                        <time datetime="2021-03-16T10:30">10:30&#8211;10:55 (UTC+9)</time>
-                        <h3><a href="javascript:void(0)" id="title_LReichel" onclick="show('LReichel');" onkeypress="return true">Modulus-based iterative methods for constrained \(\ell_p\)-\(\ell_q\) minimization </a></h3>
+                        <time datetime="2021-03-17T10:30">10:30&#8211;10:55 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_LReichel" onclick="show('LReichel');" onkeypress="return true">Modulus-based iterative methods for constrained \(\ell_p\)-\(\ell_q\) minimization</a></h3>
                         <div id="abstract_LReichel" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">The variable projection method is a classical and efficient method for solving separable nonlinear least squares (SNLLS) problems. However, it is hard to handle the constrained SNLLS problems since the explicit form of Jacobian matrix is required in each iteration. In this paper, we propose a secant variable projection (SVP) method, which employs a rank-one update to estimate the Jacobian matrices. The main advantages of our method are efficiency and ease of applicability to constrained SNLLS problems. The local convergence of our SVP method is also analyzed. Finally, some data fitting and image processing problems are solved to compare the performance of our proposed method with the classical variable projection method. Numerical results illustrate the efficiency and stability of our proposed SVP method in solving the SNLLS problems arising from the blind deconvolution problems.</p></div>
                         <h3>Lothar Reichel<span>Kent State University</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T10:55">10:55&#8211;11:20 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_RChan" onclick="show('RChan');" onkeypress="return true">High-Resolution Phase Reconstruction in Ground-based Astronomy</a></h3>
+                        <div id="abstract_RChan" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Adaptive optics is a commonly used technique to correct the phase distortions caused by the Earth's atmosphere to improve the image quality of the ground-based imaging systems. However, the observed images still suffer from the blur caused by the adaptive optics residual wavefront. We propose a model for reconstructing the residual phase in high-resolution from a sequence of low-resolution deformable mirror data. Our model is based on the turbulence statistics and the Taylor frozen flow hypothesis. A tomography problem for the phase distortions from different altitudes is solved to get a high-quality phase reconstruction. The associated joint optimization problem was solved by an alternating minimization method which results in a high-resolution reconstruction algorithm with adaptive wind velocities. Numerical simulations are carried out to show the effectiveness of our approach.</p>
+                        <p style="text-indent:1em;text-align:justify">
+                        Joint work with Rihuan Ke (University of Cambridge), Roland Wagner, and Ronny Ramlau (RICAM).</p>
+                        </div>                        
+                        <h3>Raymond Chan<span>City University of Hong Kong</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T11:20">11:20&#8211;11:45 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_KSugihara" onclick="show('KSugihara');" onkeypress="return true">TBA</a></h3>
+                        <div id="abstract_KSugihara" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">TBA</p>
+                        </div>                        
+                        <h3>Kota Sugihara<span>National Institute of Informatics</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T11:45">11:45&#8211;13:15 (UTC+9)</time>
+                        <h2>Lunch Break</h2>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T13:15">13:15&#8211;13:40 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_YSDu" onclick="show('YSDu');" onkeypress="return true">Kaczmarz-type inner-iteration preconditioned flexible GMRES methods for consistent linear systems</a></h3>
+                        <div id="abstract_YSDu" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We propose using greedy and randomized Kaczmarz inner-iterations as preconditioners for the right-preconditioned flexible GMRES method to solve consistent linear systems, with a parameter tuning strategy for adjusting the number of inner iterations and the relaxation parameter. We also present theoretical justifications of the right-preconditioned flexible GMRES for solving consistent linear systems. Numerical experiments on overdetermined and underdetermined linear systems show that the proposed method is superior to the GMRES method preconditioned by NE-SOR inner iterations in terms of total CPU time.</p></div>
+                        <h3>Yi-Shu Du<span>Tongji University</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T13:40">13:40&#8211;14:05 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_WTWu" onclick="show('WTWu');" onkeypress="return true">On Partially Randomized Extended Kaczmarz Method for Inconsistent Linear Systems</a></h3>
+                        <div id="abstract_WTWu" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">For solving large sparse, overdetermined, and inconsistent system of linear equations by iteration methods, by further reconstructing the randomized extended Kaczmarz method proposed by Zouzias and Freris in 2013 (SIAM J. Matrix Anal. Appl. 34(2013), 773&#8211;793), we propose a partially randomized extended Kaczmarz method. When the coefficient matrix is assumed to be of full column rank, we prove the convergence and derive an upper bound for the expected convergence rate of the partially randomized extended Kaczmarz method. This bound could be smaller than that of the randomized extended Kaczmarz method under certain conditions. Moreover, with numerical results we show that the partially randomized extended Kaczmarz method can be much more effective than the randomized extended Kaczmarz method.</p></div>
+                        <h3>Wen-Ting Wu<span>Beijing Institute of Technology</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T14:05">14:05&#8211;14:30 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_WMWei" onclick="show('WMWei');" onkeypress="return true">Solving Multi-Linear Systems with Nonsingular Tensor 
+</a></h3>
+                        <div id="abstract_WMWei" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">This talk is concerned with solving some structured multi-linear systems, especially focusing on the equations whose coefficient tensors are M-tensors, or called M-equations for short. We prove that a nonsingular M-equation with a positive right-hand side always has a unique positive solution. Several iterative algorithms are proposed for solving multi-linear nonsingular M-equations, generalizing the classical iterative methods and the Newton method for linear systems. Furthermore, we apply theM-equations to some nonlinear differential equations and the inverse iteration for spectral radii of nonnegative tensors.</p></div>
+                        <h3>Yi-Min Wei<span>Fudan University</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T14:30">14:30&#8211;14:45 (UTC+9)</time>
+                        <h2>Break</h2>
                     </div>
 
                 </div>
@@ -449,7 +499,7 @@ function show(inputData){
 
 
     <section id="section-venue" class="section-wrapper">
-        <h1>THE VENUE</h1>
+        <h1>VENUE</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
