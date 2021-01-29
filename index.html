@@ -486,15 +486,27 @@ function show(inputData){
                     </div>
 
                     <div class="session">
-                        <time datetime="2021-03-17T15:40">15:40&#8211;16:05 (UTC+9)</time>
+                        <time datetime="2021-03-17T16:20">16:20&#8211;16:45 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_PCHansen" onclick="show('PCHansen');" onkeypress="return true">Unmatched Projector/Backprojector Pairs and Algebraic Iterative Reconstruction</a></h3>
-                        <div id="abstract_PCHansen" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Algebraic iterative reconstruction methods – such as ART (Kaczmarz), SART, and SIRT – are popular for CT reconstruction; they adapt to any scanner geometry and handle limited-angle and limited-data problems.  The iterative methods utilize projection and backprojection operations in each iteration.  We represent the projection by a matrix A while, in principle, we represent the backprojection by B = AT (the transpose of A).
+                        <div id="abstract_PCHansen" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Algebraic iterative reconstruction methods &mdash; such as ART (Kaczmarz), SART, and SIRT &mdash; are popular for CT reconstruction; they adapt to any scanner geometry and handle limited-angle and limited-data problems. The iterative methods utilize projection and backprojection operations in each iteration.  We represent the projection by a matrix \(A\) while, in principle, we represent the backprojection by \(B = A^T\) (the transpose of \(A\).
                         </p>
-                        <p style="text-indent:1em;text-align:justify">When the iterative methods are implemented with a focus on computational efficiency, different discretization schemes are used for the forward projection and the backprojection. Hence, there is a mismatch between the backprojection matrix B and the transposed AT of the forward projection matrix. The use of such an unmatched pair has two consequences: the accuracy (compared to when using a matched pair) deteriorates, and the iteration may fail to converge.
+                        <p style="text-indent:1em;text-align:justify">When the iterative methods are implemented with a focus on computational efficiency, different discretization schemes are used for the forward projection and the backprojection. Hence, there is a mismatch between the backprojection matrix \(B\) and the transposed \(A^T\) of the forward projection matrix. The use of such an unmatched pair has two consequences: the accuracy (compared to when using a matched pair) deteriorates, and the iteration may fail to converge.
                         </p>
                         <p style="text-indent:1em;text-align:justify">In this survey talk, I illustrate these issues with recent theoretical and computational results, and I present a few novel approaches to "fixing" the non-convergence – either by modifying the iterative method or by using the AB- and BA-GMRES methods.</p>
                         <p style="text-indent:1em;text-align:justify">This is joint work with Yiqiu Dong, Tommy Elfving, Ken Hayami, Michiel Hochstenbach, Keiichi Morikuni, and Nicolai Riis.</p></div>
                         <h3>Per Christian Hansen<span>Technical University of Denmark</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T16:45">16:45&#8211;17:10 (UTC+9)</time>
+                        <h3><a href="javascript:void(0)" id="title_YNakatsukasa" onclick="show('YNakatsukasa');" onkeypress="return true">Randomized algorithms for matrix problems</a></h3>
+                        <div id="abstract_YNakatsukasa" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Randomized low-rank matrix approximation has become an extremely successful approach for efficiently computing a low-rank approximation of matrices. In particular the paper by Halko, Martinsson, and Tropp (SIREV 2011) contains extensive analysis, and has made it a very popular method. The typical complexity for a rank-r approximation of mxn matrices is \(O(mn\log n+(m+n)r^2)\) for dense matrices. In this talk I will first describe a fast and stable algorithm requiring \(O(mn\log n+r^3)\) flops. I also plan to report on recent developments in randomized algorithms: (a subset of) efficient randomized rank estimation, linear solvers, QR factorization, and approximating matrices whose singular values do not decay.</p></div>
+                        <h3>Yuji Nakatsukasa<span>Oxford University</span></h3>
+                    </div>
+
+                    <div class="session">
+                        <time datetime="2021-03-17T17:10">17:10 (UTC+9)</time>
+                        <h2>Closing Remarks</h2>
                     </div>
 
                 </div>
