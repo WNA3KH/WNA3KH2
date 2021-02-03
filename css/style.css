@@ -41,7 +41,7 @@ body {
     font-size   : 17px;
     line-height : 1.7em;
     color       : #353e55;
-    font-weight : 350;
+    font-weight : 100;
     background  : #ffffff;
     border      : 10px solid #fff;
     }
@@ -356,7 +356,7 @@ button:focus,
     position              : relative;
     background-attachment : fixed;
     background-repeat     : no-repeat;
-    background-position   : center center;;
+    background-position   : center center;
     overflow              : hidden;
     }
 
@@ -442,6 +442,10 @@ button:focus,
     line-height : 1.7em;
     }
 
+.about-event p {
+    text-align: justify;
+    }
+
 .about-event address {
     font-size   : 15px;
     color       : #888888;
@@ -520,15 +524,15 @@ button:focus,
  * Agenda
  *---------------------------*/
 
- .section-program h1, p {
-    text-align : center;
-    }
-
 
 .section-program .session {
     padding       : 15px 0;
     border-left   : 1px solid #eeeeee;
     /*margin-bottom : 40px;*/
+    }
+
+.section-program h1, p {
+    text-align : center;
     }
 
 .section-program .session time {
