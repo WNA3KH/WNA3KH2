@@ -536,6 +536,7 @@ button:focus,
 
 .section-program h1, p {
     text-align : center;
+    font-weight: 300;
     }
 
 .section-program .session time {
