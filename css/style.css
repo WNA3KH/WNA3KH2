@@ -534,9 +534,14 @@ button:focus,
     /*margin-bottom : 40px;*/
     }
 
-.section-program h1, p {
+.section-program p {
     text-align : center;
     font-weight: 300;
+    }
+
+.section-program h1 {
+    text-align : center;
+    font-weight: bold;
     }
 
 .section-program .session time {
@@ -567,6 +572,10 @@ button:focus,
 /* --------------------------
  * Pricing Table
  *---------------------------*/
+
+.registration-section p {
+    font-weight: 300;
+}
 
 .registration-section .registration-table-default {
     border         : 1px solid #f1f1f1;
