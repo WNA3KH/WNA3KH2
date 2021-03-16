@@ -312,6 +312,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair Keiichi Morikuni<span>University of Tsukuba</span></h3>
                         <time datetime="2021-03-16T10:30">10:30&#8211;10:55 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_WXu" onclick="show('WXu');" onkeypress="return true">Secant Variable Projection Method<br>for Solving Nonnegative Separable Least Squares Problems</a></h3>
                         <div id="abstract_WXu" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">The variable projection method is a classical and efficient method for solving separable nonlinear least squares (SNLLS) problems. However, it is hard to handle the constrained SNLLS problems since the explicit form of Jacobian matrix is required in each iteration. In this paper, we propose a secant variable projection (SVP) method, which employs a rank-one update to estimate the Jacobian matrices. The main advantages of our method are efficiency and ease of applicability to constrained SNLLS problems. The local convergence of our SVP method is also analyzed. Finally, some data fitting and image processing problems are solved to compare the performance of our proposed method with the classical variable projection method. Numerical results illustrate the efficiency and stability of our proposed SVP method in solving the SNLLS problems arising from the blind deconvolution problems.</p></div>
@@ -339,6 +340,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair TBA</h3>
                         <time datetime="2021-03-16T13:15">13:15&#8211;13:40 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_ZLiao" onclick="show('ZLiao');" onkeypress="return true">Behaviour of GMRES and block GMRES for matrices with multiple and clustered eigenvalues</a></h3>
                         <div id="abstract_ZLiao" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We will study the numerical behaviour of GMRES and block GMRES for coefficient matrices with multiple and clustered eigenvalues and try to analyze it.</p></div>
@@ -365,6 +367,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair Jun-Feng Yin<span>Tongji University</span></h3>
                         <time datetime="2021-03-16T14:55">14:45&#8211;15:10 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_KMorikuni" onclick="show('KMorikuni');" onkeypress="return true">Verifying eigenvalues of generalized Hermitian eigenproblems using contour integrals</a></h3>
                         <div id="abstract_KMorikuni" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We consider verifying all eigenvalues in a prescribed interval of a generalized Hermitian eigenproblem. A given eigenproblem can be reduced by a contour integral method into a generalized eigenproblem consisting of complex moments. This kind of method motivated us to develop verification methods that are efficient in parallel. Evaluating all errors in computing the complex moments, we develop verification methods for the eigenproblems. Based on the truncation errors for the trapezoidal rule of numerical quadrature, we derive a numerically computable enclosure of the complex moment. Then, we take into account numerical errors of the quadrature and rigorously enclose the moment matrices. Our error bounds are interval arithmetic-friendly and enables to determine the required number of quadrature points beforehand, according to the degree of precision one needs and the cost one can pay. Each quadrature point gives rise to a linear system, and its structure enables us to develop an efficient technique to verify the approximate solution, which does not need a numerical matrix inverse. Numerical experiments show that the proposed method outperforms a standard method and infer that the proposed method will be potentially efficient in parallel.</p>
@@ -392,6 +395,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Tomohiro Sogabe<span>Nagoya University</span></h3>
                         <time datetime="2021-03-16T16:15">16:15&#8211;16:40 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_JMMari" onclick="show('JMMari');" onkeypress="return true">Updating preconditioners for solving linear systems iteratively</a></h3>
                         <div id="abstract_JMMari" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Preconditioners are used to accelerate the convergence of iterative linear solvers. When the linear system \(Ax=b\), changes a little, let's say to \((A+B)x=c\), where $B$ has low rank, the preconditioner obtained from \(A\) loses effectivity. Instead of computing a new preconditioner from scratch we proposed to update it by bordering the coefficient matrix, and adding new entries to the right-hand side, in such a way that the bordered system is equivalent to the system \((A+B)x=c\). Then the old preconditoner can be reused and updated computing who the added blocks should be incorporated to the preconditioner of the bordered matrix. In addition, the application of the preconditioner should be changed to include the effect of the updating. Moreover, the technique can be used to deal with other situations as rank deficiency of the coefficient matrix, which prevent to obtain a preconditioner using factorization techniques. Also, if the coefficient matrix has a low-rank skew symmetric part, this technique allows to compute a preconditioner for the symmetric part and then include the skew-symmetric in the preconditioning step. In this talk I will review the technique and show some applications to the above mentioned problems.</p></div>
@@ -417,9 +421,10 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair TBA</h3>
                         <time datetime="2021-03-17T10:30">10:30&#8211;10:55 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_LReichel" onclick="show('LReichel');" onkeypress="return true">Modulus-based iterative methods<br>for constrained \(\ell_p\)-\(\ell_q\) minimization</a></h3>
-                        <div id="abstract_LReichel" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We describe computational methods for the solution of \(\ell_p\)-\(\ell_q\) minimization problems of the form \(\min_{x}\{\|Ax-b\|^p_p+\mu\|Lx\|_q^q\}\) with \( 0 < q < 1 \) and \( 0 < p < 2 \). Here \(A\) and \(L\) are matrices, \(x\) and \(b\) are vectors, and the parameter \(\mu>0\) balances the influence of the two terms. Applications include image restoration and parameter estimation in linear regression. In the latter application, the method is capable of simultaneously producing sparse estimates and dealing with outliers and heavy-tailed error distributions. </p></div>
+                        <div id="abstract_LReichel" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">We describe computational methods for the solution of \( \ell_p \)-\( \ell_q \) minimization problems of the form \( \min_{x}\{\|Ax-b\|^p_p+\mu\|Lx\|_q^q \} \) with \( 0 \lt q \lt 1 \) and \( 0 \lt p \lt 2 \). Here \( A \) and \( L \) are matrices, \( x \) and \( b \) are vectors, and the parameter \( \mu > 0 \) balances the influence of the two terms. Applications include image restoration and parameter estimation in linear regression. In the latter application, the method is capable of simultaneously producing sparse estimates and dealing with outliers and heavy-tailed error distributions. </p></div>
                         <h3>Lothar Reichel<span>Kent State University</span></h3>
                     </div>
 
@@ -445,7 +450,8 @@ function show(inputData){
                         <h2>Lunch Break</h2>
                     </div>
 
-                    <div class="session">                        
+                    <div class="session">   
+                        <h3>Chair Zeng-Qi Wang<span>Shanghai Jiao Tong University</span></h3>                     
                         <time datetime="2021-03-17T13:15">13:15&#8211;13:40 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_JFYin" onclick="show('JFYin');" onkeypress="return true">Preconditioning techniques in GMRES methods<br>for least squares problems</a></h3>
                         <div id="abstract_JFYin" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">In order to speedup the convergence of GMRES methods for least square problems, different preconditioners including diagonal scaling, robust incomplete factorization, incomplete Givens orthogonalization and Greville's method are studied and analyzed in details, as well as the theoretical properties and implementations. Numerical experiments show they are efficient for the solution of least square problem of suitable size. For large sparse problems, flexible preconditioners updated with the process of the outer iteration are suggested.</p></div>
@@ -472,6 +478,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair Xiaoke Cui<span>UT-Heart Inc.</span></h3>
                         <time datetime="2021-03-17T14:45">14:45&#8211;15:10 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_RChan" onclick="show('RChan');" onkeypress="return true">High-Resolution Phase Reconstruction<br>in Ground-based Astronomy</a></h3>
                         <div id="abstract_RChan" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Adaptive optics is a commonly used technique to correct the phase distortions caused by the Earth's atmosphere to improve the image quality of the ground-based imaging systems. However, the observed images still suffer from the blur caused by the adaptive optics residual wavefront. We propose a model for reconstructing the residual phase in high-resolution from a sequence of low-resolution deformable mirror data. Our model is based on the turbulence statistics and the Taylor frozen flow hypothesis. A tomography problem for the phase distortions from different altitudes is solved to get a high-quality phase reconstruction. The associated joint optimization problem was solved by an alternating minimization method which results in a high-resolution reconstruction algorithm with adaptive wind velocities. Numerical simulations are carried out to show the effectiveness of our approach.</p>
@@ -501,6 +508,7 @@ function show(inputData){
                     </div>
 
                     <div class="session">
+                        <h3>Chair Marc Baboulin<span>Universit&eacute; Paris-Saclay</span></h3>
                         <time datetime="2021-03-17T16:20">16:20&#8211;16:45 (UTC+9)</time>
                         <h3><a href="javascript:void(0)" id="title_PCHansen" onclick="show('PCHansen');" onkeypress="return true">Unmatched Projector/Backprojector Pairs<br>and Algebraic Iterative Reconstruction</a></h3>
                         <div id="abstract_PCHansen" style="display: none;position:relative;margin-left:15pt" class="close"><p style="text-indent:1em;text-align:justify">Algebraic iterative reconstruction methods &mdash; such as ART (Kaczmarz), SART, and SIRT &mdash; are popular for CT reconstruction; they adapt to any scanner geometry and handle limited-angle and limited-data problems. The iterative methods utilize projection and backprojection operations in each iteration.  We represent the projection by a matrix \(A\) while, in principle, we represent the backprojection by \(B = A^T\) (the transpose of \(A\)).
